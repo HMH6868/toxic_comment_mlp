@@ -23,17 +23,9 @@ Trước khi tiếp tục, đảm bảo rằng bạn đã cài đặt các phầ
 ### Các bước cài đặt
 
 1.  **Lấy mã nguồn:**
-    *   **Cách 1: Sử dụng Git (khuyến nghị nếu dự án có trên kho lưu trữ):**
-        Mở terminal (hoặc Command Prompt/PowerShell trên Windows) và chạy lệnh sau:
-        ```bash
-        git clone <URL_CUA_KHO_LUU_TRU> ten_thu_muc_du_an
-        cd ten_thu_muc_du_an
-        ```
-        (Thay thế `<URL_CUA_KHO_LUU_TRU>` bằng URL thực tế của kho lưu trữ và `ten_thu_muc_du_an` bằng tên thư mục bạn muốn cho dự án.)
-    *   **Cách 2: Tải trực tiếp:**
-        Nếu bạn có mã nguồn dưới dạng tệp ZIP, hãy giải nén nó vào một thư mục trên máy tính của bạn và di chuyển vào thư mục đó bằng terminal.
+    Tải trực tiếp ở phần release ( file .rar )
 
-2.  **Tạo và kích hoạt môi trường ảo:**
+3.  **Tạo và kích hoạt môi trường ảo:**
     Việc sử dụng môi trường ảo giúp cô lập các gói phụ thuộc của dự án, tránh xung đột với các dự án Python khác.
     ```bash
     # Di chuyển vào thư mục gốc của dự án (nếu bạn chưa ở đó)
@@ -50,7 +42,7 @@ Trước khi tiếp tục, đảm bảo rằng bạn đã cài đặt các phầ
     ```
     Sau khi kích hoạt, bạn sẽ thấy `(venv)` (hoặc tên môi trường ảo của bạn) ở đầu dòng lệnh của terminal.
 
-3.  **Cài đặt các thư viện phụ thuộc:**
+4.  **Cài đặt các thư viện phụ thuộc:**
     Khi môi trường ảo đã được kích hoạt, cài đặt tất cả các thư viện cần thiết.
     Nếu dự án có tệp `requirements.txt` (khuyến nghị), bạn có thể cài đặt bằng lệnh:
     ```bash
