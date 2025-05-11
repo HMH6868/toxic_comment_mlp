@@ -18,7 +18,6 @@ Dự án này là một ứng dụng web cho phép người dùng nhập vào m�
 Trước khi tiếp tục, đảm bảo rằng bạn đã cài đặt các phần mềm sau trên hệ thống của mình:
 *   **Python:** Phiên bản 3.7 trở lên. Bạn có thể tải Python từ [python.org](https://www.python.org/).
 *   **pip:** Trình quản lý gói cho Python (thường được cài đặt kèm với Python).
-*   **Git:** Hệ thống quản lý phiên bản phân tán (tùy chọn, nếu bạn muốn sao chép mã nguồn từ kho lưu trữ). Bạn có thể tải Git từ [git-scm.com](https://git-scm.com/).
 
 ### Các bước cài đặt
 
