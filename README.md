@@ -23,9 +23,11 @@ Trước khi tiếp tục, đảm bảo rằng bạn đã cài đặt các phầ
 ### Các bước cài đặt
 
 1.  **Lấy mã nguồn:**
+    ```bash
     Tải trực tiếp ở phần release ( file .rar )
+    ```
 
-2.  **Cài đặt các thư viện phụ thuộc:**
+3.  **Cài đặt các thư viện phụ thuộc:**
     Khi môi trường ảo đã được kích hoạt, cài đặt tất cả các thư viện cần thiết.
     Nếu dự án có tệp `requirements.txt` (khuyến nghị), bạn có thể cài đặt bằng lệnh:
     ```bash
