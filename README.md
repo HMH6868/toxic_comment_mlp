@@ -25,24 +25,7 @@ Trước khi tiếp tục, đảm bảo rằng bạn đã cài đặt các phầ
 1.  **Lấy mã nguồn:**
     Tải trực tiếp ở phần release ( file .rar )
 
-3.  **Tạo và kích hoạt môi trường ảo:**
-    Việc sử dụng môi trường ảo giúp cô lập các gói phụ thuộc của dự án, tránh xung đột với các dự án Python khác.
-    ```bash
-    # Di chuyển vào thư mục gốc của dự án (nếu bạn chưa ở đó)
-    # cd ten_thu_muc_du_an 
-
-    # Tạo một môi trường ảo có tên là 'venv' (bạn có thể đặt tên khác nếu muốn)
-    python -m venv venv
-
-    # Kích hoạt môi trường ảo:
-    # Trên Windows:
-    venv\Scripts\activate
-    # Trên macOS/Linux:
-    source venv/bin/activate
-    ```
-    Sau khi kích hoạt, bạn sẽ thấy `(venv)` (hoặc tên môi trường ảo của bạn) ở đầu dòng lệnh của terminal.
-
-4.  **Cài đặt các thư viện phụ thuộc:**
+2.  **Cài đặt các thư viện phụ thuộc:**
     Khi môi trường ảo đã được kích hoạt, cài đặt tất cả các thư viện cần thiết.
     Nếu dự án có tệp `requirements.txt` (khuyến nghị), bạn có thể cài đặt bằng lệnh:
     ```bash
